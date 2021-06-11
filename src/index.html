@@ -1,0 +1,174 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <title>Cart App</title>
+    <!-- <script defer="defer" src="main.js"></script> -->
+  </head>
+  <body>
+    <div class="card">
+      <div class="row">
+        <div class="col-md-8 cart">
+          <div class="row">
+            <div class="col pl-0">
+              <h5 class="mt-0 mb-3">Shopping Cart</h5>
+            </div>
+          </div>
+          <div class="row border-top cart-item-header-container">
+            <div class="row cart-item align-items-center">
+              <div class="col col-sm-6 text-uppercase">
+                Product <span>details</span>
+              </div>
+              <div class="col offset-1 offset-sm-0 text-uppercase">
+                Quantity
+              </div>
+              <div class="col text-uppercase">Price</div>
+              <div class="col text-uppercase">Total</div>
+            </div>
+          </div>
+          <div class="row">
+            <div class="row cart-item align-items-center" id="GOKU">
+              <div class="col col-sm-2">
+                <img
+                  class="cart-item-img img-fluid border rounded"
+                  src=""
+                />
+              </div>
+              <div class="col col-sm-4">
+                <div class="row cart-item-name"></div>
+                <div class="row cart-item-code">
+                  <span>Product code</span> <span></span>
+                </div>
+              </div>
+              <div class="col cart-item-quantity">
+                <button type="button">-</button>
+                <input
+                  readonly
+                  class="border cart-item-quantity-input"
+                  type="number"
+                  value="0"
+                />
+                <button type="button">+</button>
+              </div>
+              <div class="col cart-item-price"><span></span> &euro;</div>
+              <div class="col cart-item-total"><span></span> &euro;</div>
+            </div>
+          </div>
+          <div class="row">
+            <div class="row cart-item align-items-center" id="NARU">
+              <div class="col col-sm-2">
+                <img
+                  class="cart-item-img img-fluid border rounded"
+                  src=""
+                />
+              </div>
+              <div class="col col-sm-4">
+                <div class="row cart-item-name"></div>
+                <div class="row cart-item-code">
+                  <span>Product code</span> <span></span>
+                </div>
+              </div>
+              <div class="col cart-item-quantity">
+                <button type="button">-</button>
+                <input
+                  class="border cart-item-quantity-input"
+                  type="number"
+                  value="0"
+                />
+                <button type="button">+</button>
+              </div>
+              <div class="col cart-item-price"><span></span> &euro;</div>
+              <div class="col cart-item-total"><span></span> &euro;</div>
+            </div>
+          </div>
+          <div class="row">
+            <div class="row cart-item align-items-center" id="LUF">
+              <div class="col col-sm-2">
+                <img
+                  class="cart-item-img img-fluid border rounded"
+                  src=""
+                />
+              </div>
+              <div class="col col-sm-4">
+                <div class="row cart-item-name"></div>
+                <div class="row cart-item-code">
+                  <span>Product code</span> <span></span>
+                </div>
+              </div>
+              <div class="col cart-item-quantity">
+                <button type="button">-</button>
+                <input
+                  class="border cart-item-quantity-input"
+                  type="number"
+                  value="0"
+                />
+                <button type="button">+</button>
+              </div>
+              <div class="col cart-item-price"><span></span> &euro;</div>
+              <div class="col cart-item-total"><span></span> &euro;</div>
+            </div>
+          </div>
+        </div>
+        <div class="col-md-4 summary">
+          <h5>
+            Order Summary
+            <hr />
+          </h5>
+
+          <div class="row">
+            <div class="col" id="summary-price-quantity">
+              <span>0</span> Items
+            </div>
+            <div class="col text-right" id="summary-price">
+              <strong><span>0</span> &euro;</strong>
+            </div>
+          </div>
+
+          <hr class="w-100" />
+
+          <div class="row">
+            <div class="col-12 mb-1">
+              <h6 class="text-muted text-uppercase">
+                <small>Discounts</small>
+              </h6>
+            </div>
+            <div class="col-12" id="discount-1">
+              <div class="row">
+                <div class="col-8">2x1 Goku POP offer</div>
+                <div class="col-4 text-right mb-2 total">
+                  <strong><span>0</span> &euro;</strong>
+                </div>
+              </div>
+            </div>
+            <div class="col-12" id="discount-2">
+              <div class="row">
+                <div class="col-8">x3 Naruto POP offer</div>
+                <div class="col-4 text-right total"><strong><span>0</span> &euro;</div></strong>
+              </div>
+            </div>
+          </div>
+
+          <div class="mt-auto">
+            <div class="row">
+              <hr class="w-100 mx-3" />
+              <div class="col">TOTAL COST</div>
+              <div
+                class="col text-right summary-price total"
+                id="summary-price-total-cost"
+              >
+                <span>0</span> &euro;
+              </div>
+            </div>
+          </div>
+
+          <div class="row">
+            <div class="col">
+              <button class="btn btn-primary mt-4">Checkout</button>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </body>
+</html>
