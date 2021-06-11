@@ -1,4 +1,4 @@
-![App banner](app-banner.png)
+![App banner](app-banner.PNG)
 
 ## Installation instructions
 
