@@ -1,4 +1,4 @@
-![Drag Racing](src/assets/images/app-banner.png)
+![App banner](app-banner.png)
 
 ## Installation instructions
 
